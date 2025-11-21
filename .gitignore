@@ -1,0 +1,40 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# Build artifacts
+build/
+dist/
+public/build/ # If React build output is in a public/build folder
+client/build/ # If client-side build is separate
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# MongoDB specific files
+dump/
+*.lock
+
+# Coverage reports
+coverage/
+
+# Testing files
+*.test.js.snap
+
+# Other common files to ignore
+temp/
+tmp/
