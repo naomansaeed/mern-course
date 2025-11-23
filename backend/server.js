@@ -9,13 +9,19 @@ app.get("/api/notes", (req,res) => {
 
 app.post("/api/notes", (req,res) => {
     res.status(201).json({
-        message:"Post created Successfully!"
+        message:"Note created Successfully!"
     })
 })
 
-app.put("/api/notes", (req,res) => {
+app.put("/api/notes/:id", (req,res) => {
     res.status(200).json({
-        message:"Post updated Successfully!"
+        message:"Note updated Successfully!"
+    })
+})
+
+app.delete("/api/notes/:id", (req,res) => {
+    res.status(200).json({
+        message:"Note deleted Successfully!"
     })
 })
 
