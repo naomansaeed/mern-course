@@ -4,6 +4,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-store/
+*lock.json
 
 # Build artifacts
 build/
